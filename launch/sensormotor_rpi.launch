@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="perf_pimouse_ros" name="lightsensors" type="lightsensors2.py" required="true" />
+  <node pkg="perf_pimouse_ros" name="motors" type="motors1turtlesensor.py" required="true" />
+  <node pkg="perf_pimouse_ros" name="buzzer" type="buzzer3.py" required="true" />
+</launch>
